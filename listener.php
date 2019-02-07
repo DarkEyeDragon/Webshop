@@ -1,6 +1,6 @@
 <?php
     require 'mailer.php';
-    $link = mysqli_connect("176.31.240.154", "necrosis_forums", "56sadsj5sgh%w4s", "necrosis_store");
+    $link = mysqli_connect("ip", "database", "password", "table");
 	if ($_SERVER['REQUEST_METHOD'] != 'POST') {
 		header('Location: index.php');
 		exit();
